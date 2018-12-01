@@ -1,0 +1,711 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.content{
+  width: 100%;
+  /*max-width: 1260px;*/
+  max-width: 1250px;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+/***************MENU NAVEGACION***************/
+.div_menu, .div_menu2{
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 38px;
+  margin: auto;
+  overflow:hidden;
+  background: black;
+}
+
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  z-index: 10;
+}
+
+nav{
+  /*margin: 0 auto;  Desplazamos el nav hacia la izquierda */
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+span{
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  padding-right: 28px;
+  color: #fff;
+  margin-left: 14px;
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  color: red;
+}
+
+nav ul li a:focus {
+  color: red;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: white;
+}
+
+
+/****************DIV INFORMATIVO****************/
+.div_inf{
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 68%;
+  height: auto;
+  box-shadow: 1px 1px 2px 2px #999;
+  display: block;
+  position: relative;
+  background: white;
+  padding-bottom: 2%;
+}
+
+.div_inf h1{
+  text-align: center;
+  padding: 2%;
+  border-bottom: 1px solid gray;
+}
+
+.div_inf p{
+  text-align: center;
+}
+
+.p_gracias{
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+
+.div_inf div img{
+  margin-left: 39%;
+  font-size:80px;
+}
+
+.div_inf div{
+  float: left;
+  width: 31%;
+  height: 35%;
+  margin: 1%;
+  margin-bottom: 3%;
+}
+
+.p_solicitar{
+  border:1px solid #cd032c;
+  text-decoration: none;
+  padding: 1%;
+  color: #cd032c;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.p_solicitar:hover{
+  background: #cd032c;
+  color: white;
+}
+
+.p_solicitar:focus{
+  background: #cd032c;
+  color: white;
+}
+
+.img_home1{
+  width: 100%;
+  height: 400px;
+  margin-top: -10%;
+}
+
+/****************DIV 3****************/
+.div_3{
+  background: white;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.img_edificio2{
+  width: 40%;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+.t_servicios{
+  font-size: 20px;
+}
+
+.p_servicios{
+  float: right;
+  width: 55%;
+}
+
+.p_servicios2{
+  display: none;
+}
+
+
+.subt_servicios{
+  font-size: 30px;
+}
+
+.div_3 a{
+  display: inline-block;
+  border:1px solid #cd032c;
+  text-decoration: none;
+  color: #cd032c;
+  padding: 0.8%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.div_3 a:hover{
+  background: #cd032c;
+  color: white;
+}
+
+.div_3 a:focus{
+  background: #cd032c;
+  color: white;
+}
+
+.div3_div_a2{
+    display: none;
+  }
+
+.div_img_servicios{
+  margin-top: 6%;
+  margin-left: 33.5%;
+  position: absolute;
+  width: 40%;
+}
+
+.div_img_servicios img{ 
+  width: 25%;
+}
+
+.img_auto{
+  border-radius: 6px;
+}
+
+
+/****************IMG A****************/
+.img_contactenos{
+  width: 100%;
+  height: auto;
+  margin-top: 4%;
+  margin-bottom: -26%;
+  display: inline-block;
+}
+
+.a_contactenos{
+  text-decoration: none;
+  padding: 1.5%;
+  background: #cd032c;
+  color: white;
+  font-weight: bold;
+  min-width: 10%;
+  font-size: 95%; 
+
+}
+
+.a_contactenos:hover{
+  background: white;
+  color: red;
+}
+
+/****************DIV 3_1****************/
+.div_3_1{
+  color: white;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 2%;
+}
+
+.div_3_1 p{
+  margin-bottom: 8%;
+}
+
+
+/****************DIV 4****************/
+.div_4{
+  background: white;
+  width: 100%;
+  display: inline-block;
+}
+
+.div_4 span{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 1.5%;
+  display: inline-block;
+}
+
+.div_4 p{
+  text-align: center;
+}
+
+.div_4_button{
+  /*padding-left: 30%;*/
+  width: 48%;
+}
+
+.btn_c{
+  margin-right:15%; 
+  margin-left:15%;
+}
+
+.div_4 button{
+  border:1px solid #cd032c;
+  text-decoration: none;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /*margin-right: 10%; */
+  color: #cd032c;
+  font-weight: bold;
+  display: inline-block;
+  background: white;
+  margin-bottom: 2%;
+}
+
+.div_4 button:hover{
+  background: #cd032c;
+  color: white;
+}
+
+
+.div_4 button:focus{
+  background: #cd032c;
+  color: white;
+}
+
+
+/****************DIV 5****************/
+.div_5{
+width: 100%;
+display: inline-block;
+}
+
+.div_lima, .div_arequipa, .div_cuzco{
+  background: #ef0029;
+  color: white;
+  padding-top: 4%;
+  box-sizing: border-box;
+  width: 42%;
+  height: 377px;
+  display: block;
+  text-align: center;
+  float: right; 
+  margin-bottom: 2%;
+}
+
+.div_lima span, .div_arequipa span, .div_cuzco span{
+  font-size: 30px;
+  margin-right: 20px;
+  float: left;
+}
+
+.iconmail{
+   margin-left: 25%;
+}
+
+.iconl, .iconf{
+  margin-left: 26%; 
+}
+
+.p_div_lima, .p_div_arequipa, .p_div_cuzco{
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.div_lima h4, .div_cuzco h4, .div_arequipa h4{ 
+  font-size: 20px;
+}
+
+.div_lima hr, .div_cuzco hr, .div_arequipa hr{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.div_img_lima hr, .div_img_arequipa hr, .div_img_cuzco hr{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+/*******************DIV RUBROS******************/
+.div_rubros{
+  margin-top: 5%;
+  height: auto;
+  background: #f2f2f2;
+  display: inline-block;
+}
+
+.div_rubros h2{
+  text-align: center;
+  padding: 2.5%;
+}
+
+.t_rubros{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.hr{
+  margin: 4%;
+}
+
+.content_img_rubros{
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.content_img_rubros img{
+  padding: 1%;
+}
+
+
+.img_mapa_nosotros{
+  margin-left: 15%;
+  width: 30%;
+  height: auto;
+  float: left;
+  display: inline-block;
+}
+
+.p_rubros{
+  width: 35%;
+  float: right;
+  margin-right: 18%;
+  margin-top: 10%;
+}
+
+.t_nosotros{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.subt_nosotros{
+  font-size: 16px;
+}
+
+.a_rubros{
+  border:1px solid #cd032c;
+  text-decoration: none;
+  padding: 2%;
+  margin-top: 3%; 
+  margin-left: 1%;
+  color: #cd032c;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.a_rubros:hover{
+  background: #cd032c;
+  color: white;
+}
+
+.a_rubros:focus{
+  background: #cd032c;
+  color: white;
+}
+
+/****************FOOTER****************/
+footer{
+    position:relative;
+   left:0px;
+   bottom:0px;
+   height:auto;
+   width:100%;
+   margin: 0 auto;
+   background:#fff;
+   text-align: center;
+   padding-top: 0.5%;
+}
+
+footer .img_footer{
+float: left;
+margin-left: 8%;
+height: auto;
+margin-top: -0.8%;
+}
+
+footer .icon_footer{
+float: right;
+margin-right: 10%;
+}
+
+.p_footer{
+  float: left;
+  margin-left: 8.7%;
+}
+
+.p_footer2{
+  float: right;
+  margin-right: 10%;
+}
+
+
+
+/**************RESPONSIVE**************/
+/*MENU*/
+@media screen and (max-width:1200px){
+  .div_img_servicios{
+    display: none;
+  }
+}
+
+@media screen and (max-width:950px){
+}
+
+@media screen and (max-width:800px){
+  /************MENU************/
+  .div_menu{
+    display: block;
+    width: 100%;
+    background: black;
+  }
+
+  .div_menu2{
+    width: 100%;
+    background: black; 
+  }
+
+  .div_menu span, .div_menu2 span{
+    text-align: right;
+    display: block;
+  }
+
+  .div_menu a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .div_menu2 a{
+    display: block;
+    padding: 10px;
+    margin-left: 3%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }  
+
+    .wrapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: none;
+  }
+
+    nav ul li{
+    width: 100%;
+  }
+
+    nav ul li a{
+    float: left;
+  }
+
+  .img_edificio2{
+    width: 100%;
+  }
+
+  .p_servicios{
+    text-align: center;
+    width: 100%;
+  }
+
+  /**************DIV 4*************/
+  .div_4{
+    display: inline-block;
+  }
+
+  .div_4_button{
+    display: inline;
+  }
+
+  .div_4_button button{
+     display: block !important;
+     width: 50%;
+     margin: 0 auto;
+     margin-top: 1%;
+  }
+
+  .img_mapa_nosotros{
+    display: none;
+  }
+
+  .div_rubros{
+    
+  }
+
+  .p_rubros{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .div_5 iframe{
+    width: 100%;
+  }
+
+  .div_lima, .div_arequipa, .div_cuzco{
+    width: 100%;
+  }
+
+  .p_solicitar{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+}
+
+@media screen and (max-width:415px){
+  .div_inf{
+    padding-bottom: 5%;
+  }
+
+  .div_inf h1{
+    padding-top: 10%;
+    padding-bottom:10%;
+  }
+
+  .div_inf p{
+    padding-top: 5%;
+    padding-bottom:5%;
+  }
+
+  .div_inf div{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20%;
+  }
+
+  .p_servicios{
+    display: none;
+  }
+
+  .p_servicios2{
+    display: block;
+    margin-top: 10%;
+  }
+
+  .div_nosotros{
+    margin-top: 8%;
+  }
+
+   .div_rubros{
+    
+  }
+
+  .div_rubros h2{
+    margin-bottom: 10%;
+    margin-top: 8%;
+  }
+
+  .div3_div_a{
+    padding: 0.8%;
+    margin-top: 5%;
+    margin-left: 20%;
+    display: none;
+  }
+
+  .div3_div_a2{
+    display: block;
+  }
+
+  .div_3_1 p{
+    margin-top: 10%;
+  }
+
+  .p_solicitar{
+    margin: 0 auto;
+  }
+
+  .img_contactenos{
+    display: none;
+  }
+
+  .div_3_1 p, .div_3_1 h2{
+      color: black;
+  }
+
+  .div_3_1 h2{
+    margin-top: 8%;
+  }
+
+  .div_4{
+    margin-top: 8%;
+  }
+
+  .div_lima, .div_arequipa, .div_cuzco{
+    height: auto;
+    padding-bottom: 5%;
+  }
+
+/************FOOTER***********/
+  footer .div_img_footer{
+    display: inline-block;
+    width: 100%;  
+  }
+
+  footer .img_footer{
+    float: none;
+    margin: 0;
+  }
+
+  footer .icon_footer{
+    float: none;
+    margin: 0;
+  }
+
+  .p_footer, .p_footer2{
+    float: none;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  hr{
+    display: none;
+  }
+
+}

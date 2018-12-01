@@ -1,0 +1,325 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fff;
+}
+
+.content{
+  width: 100%;
+  max-width: 1260px;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+/***************MENU NAVEGACION***************/
+.div_menu, .div_menu2{
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 38px;
+  margin: auto;
+  overflow:hidden;
+  background: black;
+}
+
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  z-index: 10;
+}
+
+nav{
+  /*margin: 0 auto;  Desplazamos el nav hacia la izquierda */
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+span{
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  padding-right: 28px;
+  color: #fff;
+  margin-left: 14px;
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  color: red;
+}
+
+nav ul li a:focus {
+  color: red;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: white;
+}
+
+/**********************************/
+.div_0{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+   margin-bottom: 28%;
+}
+
+.img_sedes2{
+  margin-bottom: -28%;
+  height: auto;
+  width: 86%;
+}
+
+.div_title{
+  font-size: 30px;
+  margin-left: 20%;
+  float: left;
+  position: absolute;
+}
+
+.p_conozca{
+  float: left;
+}
+
+/***************DIV 1**************/
+.div_1{
+  width: 100%;
+display: inline-block;
+}
+
+.div_content_lima, .div_content_arequipa, .div_content_cuzco{
+  box-shadow: 1px 8px 10px 1px #e6e6e6;
+  margin-bottom: 2%; 
+}
+
+.div_5{
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+}
+
+.div_lima, .div_cuzco{
+  background: #ef0029;
+  color: white;
+  padding-top: 4%;
+  box-sizing: border-box;
+  width: 42%;
+  height: 377px;
+  display: block;
+  text-align: center;
+  float: right; 
+  margin-bottom: 2%;
+}
+
+.div_arequipa{
+  background: #ef0029;
+  color: white;
+  padding-top: 4%;
+  box-sizing: border-box;
+  width: 42%;
+  height: 377px;
+  display: block;
+  text-align: center;
+  float: left; 
+  margin-bottom: 2%;
+}
+
+.div_lima span, .div_arequipa span, .div_cuzco span{
+  font-size: 30px;
+  margin-right: 20px;
+  float: left;
+}
+
+.iconmail{
+   margin-left: 25%;
+}
+
+.iconl, .iconf{
+  margin-left: 26%; 
+}
+
+.p_div_lima, .p_div_arequipa, .p_div_cuzco{
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.div_lima h4, .div_cuzco h4, .div_arequipa h4{ 
+  font-size: 20px;
+}
+
+.div_lima hr, .div_cuzco hr, .div_arequipa hr{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.div_img_lima hr, .div_img_arequipa hr, .div_img_cuzco hr{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+/****************FOOTER****************/
+footer{
+    position:relative;
+   left:0px;
+   bottom:0px;
+   height:100px;
+   width:100%;
+   margin: 0 auto;
+   background:#fff;
+   text-align: center;
+   padding-top: 0.5%;
+}
+
+footer .img_footer{
+float: left;
+margin-left: 8%;
+margin-top: -0.8%;
+}
+
+footer .icon_footer{
+float: right;
+margin-right: 10%;
+}
+
+.p_footer{
+  float: left;
+  margin-left: 8.7%;
+}
+
+.p_footer2{
+  float: right;
+  margin-right: 10%;
+}
+
+/************RESPONSIVE**********/
+/*MENU*/
+@media screen and (max-width:1200px){
+   
+}
+
+@media screen and (max-width:950px){
+  
+}
+
+@media screen and (max-width:800px){
+  /************MENU************/
+  .div_menu{
+    display: block;
+    width: 100%;
+    background: black;
+  }
+
+  .div_menu2{
+    width: 100%;
+    background: black; 
+  }
+
+  .div_menu span, .div_menu2 span{
+    text-align: right;
+    display: block;
+  }
+
+  .div_menu a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .div_menu2 a{
+    display: block;
+    padding: 10px;
+    margin-left: 3%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }  
+
+    .wrapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: none;
+  }
+
+    nav ul li{
+    width: 100%;
+  }
+
+    nav ul li a{
+    float: left;
+  }
+
+  .div_1 iframe{
+    width: 100%;
+  }
+
+  .div_lima, .div_arequipa, .div_cuzco{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:415px){
+  .img_sedes2{
+    display: none;
+  }
+    
+  .p_conozca{
+    margin-top: 8%;
+  }
+
+   .div_lima, .div_arequipa, .div_cuzco{
+    height: auto;
+    padding-bottom: 5%;
+    margin-bottom: 4%;
+  }
+
+
+  /************FOOTER***********/
+  footer .div_img_footer{
+    display: inline-block;
+    width: 100%;  
+  }
+
+  footer .img_footer{
+    float: none;
+    margin: 0;
+  }
+
+  footer .icon_footer{
+    float: none;
+    margin: 0;
+  }
+
+  .p_footer, .p_footer2{
+    float: none;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  hr{
+    display: none;
+  }
+}

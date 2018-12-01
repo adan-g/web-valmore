@@ -1,0 +1,553 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background: #f9f9f9;
+}
+
+.content{
+  width: 100%;
+  max-width: 1260px;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+.div_0{
+  margin-top: -1.5%;
+  background: white;
+}
+
+/***************MENU NAVEGACION***************/
+.div_menu, .div_menu2{
+  display: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 38px;
+  margin: auto;
+  overflow:hidden;
+  background: black;
+}
+
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  z-index: 10;
+}
+
+nav{
+  /*margin: 0 auto;  Desplazamos el nav hacia la izquierda */
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+span{
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  padding-right: 28px;
+  color: #fff;
+  margin-left: 14px;
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  color: red;
+}
+
+nav ul li a:focus {
+  color: red;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: white;
+}
+
+
+/****************DIV 1**************/
+.div_1{
+ background: white;
+ width: 90%;
+ margin-bottom: 3%;
+ margin-top: 3%; 
+ margin-left: 5%;
+ display: inline-block;
+ box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.contacto{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.rojo{
+  color: #ef0029;
+  font-weight: bold;
+}
+
+.div_1 form button{
+  border:1px solid #cd032c;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  color: #cd032c;
+  font-weight: bold;
+  margin-left: 2%;
+  background: white;
+  margin-bottom: 4%;
+}
+
+.div_1 form button:hover{
+  background: #cd032c;
+  color: white;
+}
+
+.div_1 form button:focus{
+  background: #cd032c;
+  color: white;
+}
+
+.div_1 img{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  min-height: 594px;
+  height: 100%;
+}
+
+.input_nombre, .input_Nempresa, .input_correo, .input_telefono{
+  height: 28px;
+}
+
+.input_nombre:focus, .input_Nempresa:focus, .input_correo:focus, .input_telefono:focus{
+  background: none;
+}
+
+.input_nombre{
+  background: url("../img/icono_usuario.png") no-repeat scroll 0 0 transparent;  
+}
+
+.input_Nempresa{
+  background: url("../img/icono_empresa.png") no-repeat scroll 0 0 transparent;  
+}
+
+.input_correo{
+  background: url("../img/icono_mensaje.png") no-repeat scroll 0 0 transparent;  
+}
+
+.input_telefono{
+  background: url("../img/icono_telefono.png") no-repeat scroll 0 0 transparent;  
+}
+
+.div_1 p{
+  float: right;
+  width: 62%;
+  padding-left: 5%; 
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.div_1 form{
+  float: right;
+  width: 64%;
+  padding-left: 5%;
+}
+
+.div_1 form input{
+  margin: 2%;
+  width: 70%;
+}
+
+.div_1 a{
+  border: 1px solid red;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: red;
+  display: inline-block;
+  margin-left: 4%;
+  font-weight: bold;
+}
+
+.input_msj{
+  height: 80px;
+}
+
+
+
+ /******************DIV 2*******************/
+.div_2 div{
+  margin: 2%;
+}
+
+.div3_img_servicio{
+  padding-left: 3.5%;
+}
+
+.div_2 img{
+  box-shadow: 1px 1px 1px 1px #999;
+  margin: 1%;
+}
+
+/****************DIV 3****************/
+.div_3{
+  background: white;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.img_edificio2{
+  width: 40%;
+  float: left;
+  position: relative;
+}
+
+.p_servicios{
+  float: right;
+  width: 40%;
+  margin-right: 15%;
+}
+
+.subt_servicios{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.div_3 a{
+  display: inline-block;
+  border:1px solid red;
+  color: red;
+  padding: 0.5%;
+  margin-left: 5%;
+  margin-top: 2.5%;
+}
+
+.div_img_servicios{
+  margin-top: 2%;
+  margin-left: 32%;
+  background: red;
+  position: absolute;
+}
+
+/****************DIV 4****************/
+.div_4{
+  background: white;
+  width: 100%;
+}
+
+.div_4 span{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 1.5%;
+  display: inline-block;
+}
+
+.div_4 p{
+  text-align: center;
+}
+
+.div_4_button{
+  /*padding-left: 30%;*/
+  width: 48%;
+}
+
+.btn_c{
+  margin-right:15%; 
+  margin-left:15%;
+}
+
+.div_4 button{
+  border:1px solid #cd032c;
+  text-decoration: none;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /*margin-right: 10%; */
+  color: #cd032c;
+  font-weight: bold;
+  display: inline-block;
+  background: white;
+  margin-bottom: 2%;
+}
+
+.div_4 button:hover{
+  background: #cd032c;
+  color: white;
+}
+
+
+.div_4 button:focus{
+  background: #cd032c;
+  color: white;
+}
+
+
+
+/****************DIV 5****************/
+.div_5{
+width: 100%;
+display: inline-block;
+}
+
+.div_lima, .div_arequipa, .div_cuzco{
+  background: #ef0029;
+  color: white;
+  padding-top: 4%;
+  box-sizing: border-box;
+  width: 42%;
+  height: 377px;
+  display: block;
+  text-align: center;
+  float: right; 
+  margin-bottom: 2%;
+}
+
+.div_lima span, .div_arequipa span, .div_cuzco span{
+  font-size: 30px;
+  margin-right: 20px;
+  float: left;
+}
+
+.iconmail{
+   margin-left: 25%;
+}
+
+.iconl, .iconf{
+  margin-left: 26%; 
+}
+
+.p_div_lima, .p_div_arequipa, .p_div_cuzco{
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.div_lima h4, .div_cuzco h4, .div_arequipa h4{ 
+  font-size: 20px;
+}
+
+.div_lima hr, .div_cuzco hr, .div_arequipa hr{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.div_img_lima hr, .div_img_arequipa hr, .div_img_cuzco hr{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+/****************FOOTER****************/
+footer{
+    position:relative;
+   left:0px;
+   bottom:0px;
+   height:auto;
+   width:100%;
+   margin: 0 auto;
+   background:#fff;
+   text-align: center;
+   padding-top: 0.5%;
+}
+
+footer .img_footer{
+float: left;
+margin-left: 8%;
+height: auto;
+margin-top: -0.8%;
+}
+
+footer .icon_footer{
+float: right;
+margin-right: 10%;
+}
+
+.p_footer{
+  float: left;
+  margin-left: 8.7%;
+}
+
+.p_footer2{
+  float: right;
+  margin-right: 10%;
+}
+
+
+
+
+/**************RESPONSIVE**************/
+/*MENU*/
+@media screen and (max-width:1200px){
+    
+}
+
+@media screen and (max-width:950px){
+  
+}
+
+@media screen and (max-width:800px){
+/************MENU************/
+  .div_menu{
+    display: block;
+    width: 100%;
+    background: black;
+  }
+
+  .div_menu2{
+    width: 100%;
+    background: black; 
+  }
+
+  .div_menu span, .div_menu2 span{
+    text-align: right;
+    display: block;
+  }
+
+  .div_menu a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .div_menu2 a{
+    display: block;
+    padding: 10px;
+    margin-left: 3%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }  
+
+    .wrapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: none;
+  }
+
+    nav ul li{
+    width: 100%;
+  }
+
+    nav ul li a{
+    float: left;
+  }
+
+  .div_1 form{
+    width: 90%;
+  }
+
+  .div_1 p{
+    width: 98%;
+  }
+
+  .div_1 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .div_1_formulario{
+    width: 100%;
+  }
+
+
+/**************DIV 4*************/
+  .div_4{
+    display: inline-block;
+  }
+
+  .div_4_button{
+    display: inline;
+  }
+
+  .div_4_button button{
+     display: block !important;
+     width: 50%;
+     margin: 0 auto;
+     margin-top: 1%;
+  }
+
+
+  /*********MAPAS**********/
+  .div_5 iframe{
+    width: 100%;
+  }
+
+  .div_lima, .div_arequipa, .div_cuzco{
+    width: 100%;
+  }
+
+  .div_img_footer{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:415px){
+  .div_1 p{
+    margin-top: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    font-size: 90%;
+    width: 90%;
+  }
+
+  .div_4{
+    padding-top: 5%;
+
+  }
+
+  .div_lima, .div_arequipa, .div_cuzco{
+    height: auto;
+    padding-bottom: 5%;
+  }
+  /************FOOTER***********/
+  footer .div_img_footer{
+    display: inline-block;
+    width: 100%;  
+  }
+
+  footer .img_footer{
+    float: none;
+    margin: 0;
+  }
+
+  footer .icon_footer{
+    float: none;
+    margin: 0;
+  }
+
+  .p_footer, .p_footer2{
+    float: none;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  hr{
+    display: none;
+  }
+}
